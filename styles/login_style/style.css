@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: url('aboutbg.gif');
+  background: url('../aboutbg.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
