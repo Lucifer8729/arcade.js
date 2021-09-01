@@ -1,16 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: url('aboutbg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#login {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  align-items: center;
+  margin-top: 10rem;
+  border-radius: 15px;
+  padding: 30px 30px;
+}
+
+.login-btn {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px 18px;
+  background-color: #9d00ff;
+  -webkit-box-shadow: 0 1px 10px 0 #000000;
+  -moz-box-shadow: 0 1px 10px 0 #000000;
+  box-shadow: 0 1px 10px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login-btn:hover {
+  background: #9d00ff;
+  background-image: -webkit-linear-gradient(top, #9d00ff, #7400bc);
+  background-image: -moz-linear-gradient(top, #9d00ff, #7400bc);
+  background-image: -ms-linear-gradient(top, #9d00ff, #7400bc);
+  background-image: -o-linear-gradient(top, #9d00ff, #7400bc);
+  background-image: -webkit-gradient(to bottom, #9d00ff, #7400bc);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 42px;
+}
+
+.email-box {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.password-box {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.register {
+  margin: 20px auto 2px;
+}
+
+.email-label {
+  margin-left: 40px;
+}
+.email-txt,
+.password-txt {
+  background-color: burlywood;
+  margin-left: 5px;
+}
+
+.register-btn {
+  text-decoration: none;
+  color: aqua;
 }
