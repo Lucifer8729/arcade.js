@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>JavaScript Form Validation: Valid Zip Code </title>
+  <style>body{font-family:Verdana;}</style>
+</head>
+  
+<body>
+<script>
+  function check_Alpha(letters){
+    var regex = /^[a-zA-Z]+$/;
+    if(regex.test(letters.yourname.value) == false){
+   alert("Name must be in alphabets only");
+   letters.yourname.focus();
+   return false;
+    }
+    if(letters.yourname.value == " "){
+      alert("Name Field cannot be left empty");
+      letters.yourname.focus();
+      return false;
+    }
+    return true;
+  }
+</script>
+  <form name="alphavalidate" action="form_process.php"
+  method="post" onSubmit="return check_Alpha(this)" >
+          
+  Name : 
+   <input type="text" size="40" name="yourname" /> 
+          
+  <input type="submit" value="Submit" />
+  <input type="reset" /> 
+ </form>         
+  
+          
+</body>
+</html>
