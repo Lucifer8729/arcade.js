@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/login_style/style.css" />
+    <link rel="stylesheet" href="styles/register_style/style.css" />
     <title>Login</title>
   </head>
   <body>
@@ -14,23 +15,63 @@
         <form action="">
           <div class="email-box">
             <label for="email" class="email-label">Email:</label>
-            <input type="email" class="email-txt" />
+            <input type="text" class="email-txt-login" />
           </div>
           <div class="password-box">
             <label for="password" class="password-label">Password:</label>
-            <input type="password" class="password-txt" />
+            <input type="password" class="password-txt-login" />
           </div>
           <div class="submit">
             <button class="login-btn">Sign In</button>
           </div>
           <div class="register">
             Don't have an account?
-            <a href="register.html" class="register-btn">Sign Up</a>
+            <a class="register-btn">Sign Up</a>
+          </div>
+        </form>
+      </div>
+      <div id="register">
+        <div class="heading">Sign Up</div>
+        <form action="">
+          <div class="first-name">
+            <label for="FirstName" class="fn-label">First Name:</label>
+            <input type="text" class="fn-text" />
+          </div>
+          <div class="last-name">
+            <label for="LastName" class="ls-label">Last Name:</label>
+            <input type="text" class="ls-text" />
+          </div>
+          <div class="dob">
+            <label for="dob" class="dob-label">Date of Birth:</label>
+            <input type="date" class="date-text" />
+          </div>
+          <div class="email-box">
+            <label for="email" class="email-label">Email:</label>
+            <input type="text" class="email-txt" />
+          </div>
+          <div class="password-box">
+            <label for="password" class="password-label">Password:</label>
+            <input type="password" class="password-txt" />
+          </div>
+          <div class="conf-pass">
+            <label for="confpass" class="confpass-label"
+              >Confirm Password:</label
+            >
+
+            <input type="password" class="confpasswd-text" />
+          </div>
+          <div class="submit">
+            <button class="reg-btn">Sign Up</button>
+          </div>
+          <div class="register">
+            Have an account?
+            <a class="signin-btn">Sign In</a>
           </div>
         </form>
       </div>
     </section>
 
-    <script src="scripts/script.js"></script>
+    <script type="module" src="scripts/script.login.js"></script>
+    <script type="module" src="scripts/script.register.js"></script>
   </body>
 </html>

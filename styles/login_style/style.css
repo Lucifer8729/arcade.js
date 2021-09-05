@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 100vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: url('../aboutbg.gif');
+  background: url("../aboutbg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -82,8 +82,8 @@ body {
 .email-label {
   margin-left: 40px;
 }
-.email-txt,
-.password-txt {
+.email-txt-login,
+.password-txt-login {
   background-color: burlywood;
   margin-left: 5px;
 }
@@ -91,4 +91,5 @@ body {
 .register-btn {
   text-decoration: none;
   color: aqua;
+  cursor: pointer;
 }

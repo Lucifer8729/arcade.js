@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 100vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: url('../aboutbg.gif');
+  background: url("../aboutbg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,7 +18,7 @@ body {
 }
 
 #register {
-  display: inline-block;
+  display: none;
   background-color: black;
   color: white;
   opacity: 0.75;
@@ -69,20 +69,17 @@ body {
 .first-name {
   margin-bottom: 20px;
   font-size: 20px;
-  
 }
 
 .last-name {
   margin-bottom: 20px;
   font-size: 20px;
-  
 }
 
 .dob {
   margin-bottom: 20px;
   font-size: 20px;
 }
-
 
 .email-box {
   margin-bottom: 20px;
@@ -99,16 +96,15 @@ body {
   font-size: 20px;
 }
 
-
 .register {
   margin: 20px auto 2px;
 }
 
-.ls-label{
+.ls-label {
   margin-left: 65px;
 }
 
-.fn-label{
+.fn-label {
   margin-left: 65px;
 }
 
@@ -120,11 +116,11 @@ body {
   margin-left: 40px;
 }
 
-.password-label{
+.password-label {
   margin-left: 74px;
 }
 
-.email-label{
+.email-label {
   margin-left: 112px;
 }
 
@@ -138,7 +134,8 @@ body {
   margin-left: 5px;
 }
 
-.register-btn {
+.signin-btn {
   text-decoration: none;
   color: aqua;
+  cursor: pointer;
 }
