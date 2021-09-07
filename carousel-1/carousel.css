@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #141414;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.slider-text-box {
+  flex: 1;
+  max-width: 20rem;
+  height: 20rem;
+  position: relative;
+
+  background-color: lightblue;
+}
+
+.slider-img-box {
+  flex: 1;
+  max-width: 30rem;
+  height: 20rem;
+  position: relative;
+  overflow: hidden;
+
+  background-color: lightseagreen;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20rem;
+  transition: transform 1s;
+}
+
+.slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider__btn {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 10;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.game-description-box {
+  padding: 2% 4%;
+  height: 70%;
+  position: absolute;
+}
+
+.creator-img {
+  border-radius: 50%;
+  width: 16%;
+  height: 20%;
+  position: absolute;
+  right: 5%;
+  bottom: -36%;
+}
