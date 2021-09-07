@@ -73,7 +73,7 @@ const slider = function () {
   btnLeft.addEventListener('click', nextSlide);
 
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'ArrowLeft') nextSlide();
+    if (e.key === 'ArrowRight') nextSlide();
   });
 };
 slider();
