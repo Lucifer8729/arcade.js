@@ -86,3 +86,22 @@ body {
   right: 5%;
   bottom: -36%;
 }
+
+.overlay-img {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.overlay-img:hover {
+  opacity: 0.3;
+}
+
+.play-icon {
+  color: white;
+}
