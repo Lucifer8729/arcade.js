@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #141414;
+  color: white;
+}
+
+hr {
+  border-style: solid;
+  margin: 1.25rem 1rem;
+  width: 15%;
+  border-width: 3px;
+  color: yellowgreen;
+  background-color: yellowgreen;
+}
+
+.about-slider {
+  max-width: 15rem;
+  height: 40rem;
+  position: relative;
+  margin: 5rem auto;
+  background-color: teal;
+  overflow: hidden;
+}
+
+.about-slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 40rem;
+  transition: transform 1s;
+}
+
+.about-img-box {
+  height: 10rem;
+  padding: 1rem 2rem;
+}
+
+.about-img-box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-box {
+  background-color: yellowgreen;
+  padding: 0.1rem;
+}
+
+.about-header {
+  margin-left: 1rem;
+}
+
+.about-txt-box {
+  margin-top: 3rem;
+  padding: 0 2%;
+}
+
+.about-txt {
+  margin-left: 1rem;
+}
+
+.about-links-box {
+  margin: 3rem 0 1rem;
+  background-color: yellowgreen;
+  width: 34%;
+  padding: 0.2rem;
+}
+
+.fa-github-square {
+  margin: 0 0.6rem;
+}
