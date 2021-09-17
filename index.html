@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+
+    <script
+      src="https://kit.fontawesome.com/f2c35f56c1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Arcade.Js</title>
   </head>
   <body>
     <section class="home">
@@ -25,14 +31,85 @@
 
     <section class="main-body">
       <div class="main-body-div">
-        <div class="about-div">about</div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="about-div">
+          <div class="about-slider"></div>
+        </div>
+
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
         <div class="games-div">
           <div class="random-games">
-            <div class="random-game random-game-div1">game1</div>
-            <div class="random-game random-game-div2">game2</div>
-            <div class="random-game random-game-div3">game3</div>
+            <div class="random-game random-game-div1">
+              <div class="game-img"></div>
+              <div class="game-des"></div>
+              <div class="game-link"></div>
+            </div>
+            <div class="random-game random-game-div2">
+              <div class="game-img">image</div>
+              <div class="game-des">description</div>
+              <div class="game-link">link</div>
+            </div>
+            <div class="random-game random-game-div3">
+              <div class="game-img">image</div>
+              <div class="game-des">description</div>
+              <div class="game-link">link</div>
+            </div>
           </div>
-          <div class="all-games">all games</div>
+          <div class="all-games">
+            <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <div class="section">
+              <div class="slider-text-box">
+                <div class="game-description-box game-0">
+                    <div class="game-header">
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="game-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                    </div>
+                    <img src="img/lucifer.jpg" class="creator-img">
+                </div>
+                <div class="game-description-box game-1">
+                    <div class="game-header">
+                        <h2>Lorem</h2>
+                    </div>
+                    <div class="game-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    </div>
+                    <img src="img/039-exp-3.png" class="creator-img">
+                </div>
+                <div class="game-description-box game-2">
+                    <div class="game-header">
+                        <h2>Lorem dcscjc cjcecj</h2>
+                    </div>
+                    <div class="game-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+                    </div>
+                    <img src="img/039-exp-3.png" class="creator-img">
+                </div>
+                <button class="slider__btn slider__btn--left">&rarr;</button>
+              </div>
+        
+              <div class="slider-img-box">
+                <div class="slide">
+                  <div class="overlay-img"><a href="index.html" target="_blank"><i class="fas fa-play-circle fa-4x play-icon"></i></a></div>
+                  <img class="slide-img" src="img/lucifer.jpg"></img>
+                </div>
+                <div class="slide">
+                  <div class="overlay-img"><a href="index.html" target="_blank"><i class="fas fa-play-circle fa-4x play-icon"></i></a></div>
+                  <img class="slide-img" src="img/039-exp-3.png"></img>
+                </div>
+                <div class="slide">
+                  <div class="overlay-img"><a href="index.html" target="_blank"><i class="fas fa-play-circle fa-4x play-icon"></i></a></div>
+                    <img class="slide-img" src="img/039-exp-3.png"></img>
+                  </div>
+              </div>
+            </div>
+
+            <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+          </div>
         </div>
       </div>
       <div class="body-overlay">
@@ -48,13 +125,15 @@
         <div class="developer">Aniket Agarwal</div>
         <div class="developer">Anurag Nayak</div>
         <div class="developer">Bhavaneet Singh</div>
-        <div class="developer">Rishi Prashar</div>
+        <div class="developer">Rishy Prashar</div>
         <div class="developer">Saurav Kumar</div>
         <div class="developer">Ved Prakash Dubey</div>
       </div>
       &#169; copyright 2021
     </section>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="carousel1.js"></script>
+    <script type="module" src="carousel2.js"></script>
   </body>
 </html>

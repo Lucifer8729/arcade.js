@@ -1,3 +1,5 @@
+import { GAME_DATA } from "./GAME_DATA.js";
+
 class TypeWriter {
   constructor(textElement, words, wait) {
     this.textElement = textElement;
@@ -31,7 +33,7 @@ class TypeWriter {
       if (this.i === 0) blinkCursor();
       if (this.i == 1) {
         const cursor = document.querySelector(".msg-cursor");
-        const blink = setInterval(() => {
+        setInterval(() => {
           cursor.classList.toggle("blink");
         }, 500);
 
@@ -44,7 +46,6 @@ class TypeWriter {
       typeSpeed = 300;
     }
 
-    console.log(this.txt);
     setTimeout(() => this.type(), typeSpeed);
   }
 }
@@ -72,3 +73,12 @@ const init = () => {
 
   new TypeWriter(textElement, words, wait);
 };
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const randomGameDiv1Image = document.querySelector(
+  ".random-game-div1 .game-img"
+);
+// randomGameDiv1.style.backgroundImage = `url("assets/MWjbWaQ.png")`;
+randomGameDiv1Image.innerHTML = `<img src="assets/MWjbWaQ.png" alt="game" />`;
+// console.log(randomGameDiv1Image);
