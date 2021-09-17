@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="scripts\game.js"></script>
+    <script src="scripts\asteroidField.js"></script>
+    <script src="scripts\asteroid.js"></script>
+    <script src="scripts\ship.js"></script>
+    <script src="scripts\rocket.js"></script>
+    <script src="scripts\utils.js"></script>
+  </head>
+
+  <body>
+    <div id="game"></div>
+
+    <script>
+      var game = new Game(document.getElementById("game"));
+      game.start();
+
+      window.addEventListener("keydown", function keydown(e) {
+        var keycode = e.which || window.event.keycode;
+        //  Supress further processing of left/up/right/down/space (37/38/39/40/32)
+        if (
+          keycode === 37 ||
+          keycode === 38 ||
+          keycode === 39 ||
+          keycode === 40 ||
+          keycode === 32
+        ) {
+          e.preventDefault();
+        }
+        game.keyDown(keycode);
+      });
+      window.addEventListener("keyup", function keyup(e) {
+        var keycode = e.which || window.event.keycode;
+        game.keyUp(keycode);
+      });
+    </script>
+  </body>
+</html>

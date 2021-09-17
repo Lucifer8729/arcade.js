@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap");
+@import url("http://fonts.cdnfonts.com/css/jack-input");
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Plaguard;
+  src: url("assets/Plaguard-ZVnjx.otf");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* HOME */
+/* ////////////////////////////////////////////////////////////// */
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+}
+.home .home-div {
+  position: absolute;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  /* background: #00556b; */
+  width: 73vmax;
+  height: 40vmin;
+
+  font-family: Plaguard;
+  font-size: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* opacity: 68%; */
+  border: 1px solid #03cbff;
+  background: rgba(162, 239, 255, 0.1);
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  backdrop-filter: blur(30px) brightness(115%);
+
+  z-index: 0;
+}
+.home-title p {
+  -webkit-text-fill-color: #def8fc;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #03cbff;
+  letter-spacing: 1vw;
+}
+
+.home-msg {
+  width: 37vmax;
+  height: 8vmin;
+
+  font-family: "JackInput", sans-serif;
+  font-size: 2.5vw;
+  color: #00556b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 5px solid #5bbbd4;
+  background: #def8fc;
+  margin-top: -4vmin;
+
+  z-index: 1;
+}
+
+/* MAIN BODY */
+/* ////////////////////////////////////////////////////////////// */
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-overlay div {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 170vh;
+
+  background: rgba(162, 239, 255, 0.1);
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  backdrop-filter: blur(30px) brightness(115%);
+
+  z-index: 0;
+}
+.body-overlay img {
+  width: 100%;
+  height: 170vh;
+  vertical-align: middle;
+}
+
+.main-body-div {
+  position: absolute;
+  width: 86vw;
+  height: 120vh;
+  display: flex;
+
+  z-index: 1;
+}
+
+.about-div {
+  width: 30vw;
+
+  background-color: white;
+}
+
+.games-div {
+  margin-left: 3vw;
+  width: 100%;
+}
+
+.random-games {
+  display: flex;
+}
+
+.random-game {
+  width: 30%;
+  height: 57vh;
+
+  background-color: white;
+}
+.random-game-div2 {
+  margin-left: 5%;
+}
+.random-game-div3 {
+  margin-left: 5%;
+}
+
+.all-games {
+  width: 100%;
+  height: 57vh;
+  margin-top: 5%;
+
+  background-color: white;
+}
+
+/* FOOTER */
+/* ////////////////////////////////////////////////////////////// */
+.footer {
+  height: 20vmin;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev-div {
+  display: flex;
+  justify-content: center;
+}
+.developer {
+  margin: 2vh 2vw 4vh;
+  font-weight: bold;
+  font-size: 2vh;
+  color: #ccf8ff;
+}
