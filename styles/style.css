@@ -184,6 +184,8 @@ body {
 }
 .game-des .img-div img {
   margin: auto;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 .game-des span {
@@ -196,10 +198,11 @@ body {
   width: 15%;
   border-width: 3px;
   color: #00556b;
+  background-color: #00556b;
 }
 
 .game-des .game-description {
-  margin-top: 2vw;
+  margin-top: 1vw;
   width: 80%;
 }
 
@@ -239,7 +242,7 @@ a {
   height: 57vh;
   margin-top: 6vh;
 
-  background-color: white;
+  /*background-color: white;*/
 }
 
 /* FOOTER */
@@ -270,19 +273,18 @@ a {
 
 .about-hr {
   border-style: solid;
-  margin: 1.25rem 1rem;
+  margin: 1.25rem 2rem;
   width: 15%;
   border-width: 3px;
-  color: yellowgreen;
-  background-color: yellowgreen;
+  color: #D80043;
+  background-color: #D80043;
 }
 
 .about-slider {
-  max-width: 15rem;
-  height: 40rem;
+  max-width: 100%;
+  height: 100%;
   position: relative;
-  margin: 5rem auto;
-  background-color: teal;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -295,43 +297,53 @@ a {
 }
 
 .about-img-box {
-  height: 10rem;
-  padding: 1rem 2rem;
+  height: 52vh;
 }
 
 .about-img-box > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .about-box {
-  background-color: yellowgreen;
+  background: linear-gradient(to top right,#840023,#E60054);
   padding: 0.1rem;
 }
 
 .about-header {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding-left: 4%;
 }
 
 .about-txt-box {
   margin-top: 3rem;
-  padding: 0 2%;
+  padding: 0 4%;
+  margin-bottom: 3rem;
+  max-height: 42vh;
 }
 
 .about-txt {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .about-links-box {
-  margin: 3rem 0 1rem;
-  background-color: yellowgreen;
+  margin: 1rem 0 1rem;
+  background: linear-gradient(to top right,#840023,#E60054);
   width: 34%;
+  height: 7%;
   padding: 0.2rem;
+}
+.about-links-box a {
+  text-decoration: none;
+  color: white;
+  padding-right: 0.2rem;
 }
 
 .fa-github-square {
-  margin: 0 0.6rem;
+  margin: 0.1rem 0.6rem;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -343,18 +355,20 @@ a {
 }
 
 .slider-text-box {
-  flex: 1;
-  max-width: 20rem;
-  height: 20rem;
+  
+  width: 35vw;
+  height: 57vh;
   position: relative;
 
-  background-color: lightblue;
+  background: rgba(162, 239, 255, 0.3);
+  -webkit-backdrop-filter: blur(30px) brightness(115%);
+  backdrop-filter: blur(30px) brightness(115%);
 }
 
 .slider-img-box {
-  flex: 1;
-  max-width: 30rem;
-  height: 20rem;
+
+  width: 100%;
+  height: 57vh;
   position: relative;
   overflow: hidden;
 
@@ -371,8 +385,7 @@ a {
 
 .slide > img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 57vh;
 }
 
 .slider__btn {
@@ -407,7 +420,7 @@ a {
 }
 
 .overlay-img {
-  height: 100%;
+  height: 57vh;
   width: 100%;
   opacity: 0;
   display: flex;

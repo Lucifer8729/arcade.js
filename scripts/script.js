@@ -103,7 +103,7 @@ const getRandomGames = () => {
                   </div>
                   <a href=${GAME_DATA[num].games[0].link} target="_blank">
                   <div class="game-link" >
-                    <i class="fas fa-play-circle fa-3x play-icon"></i>
+                    <i class="fas fa-play-circle fa-2x play-icon"></i>
                     <span>PLAY NOW</span>
                   </div>
                   </a>

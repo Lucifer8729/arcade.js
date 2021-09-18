@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
               <div class="about-links-box">
                 <a href=${data.gitLink} target="_blank">
-                  <i class="fab fa-github-square fa-lg"></i>
+                  <i class="fab fa-github-square fa-2x"></i>
                 </a>
                 <a href=${data.linkedinLink} target="_blank">
-                  <i class="fab fa-linkedin fa-lg"></i>
+                  <i class="fab fa-linkedin fa-2x"></i>
                 </a>
               </div>
             </div>`;
