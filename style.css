@@ -162,6 +162,45 @@ body {
   height: 45%;
 
   background-color: #def8fc;
+  padding-top: 2vw;
+  padding-left: 2vw;
+}
+
+.game-des .img-div {
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-self: center;
+
+  border-radius: 50px;
+  box-shadow: 0 2px 10px 1px black;
+
+  margin-top: -4vw;
+  margin-left: 11vw;
+}
+.game-des .img-div img {
+  margin: auto;
+}
+
+.game-des span {
+  font-size: 4vmin;
+  color: #00556b;
+}
+.game-des hr {
+  border-style: solid;
+  margin-left: 0;
+  width: 15%;
+  border-width: 3px;
+  color: #00556b;
+}
+
+.game-des .game-description {
+  margin-top: 2vw;
+  width: 80%;
 }
 
 .game-link {
@@ -169,7 +208,30 @@ body {
   -webkit-backdrop-filter: blur(30px) brightness(115%);
   backdrop-filter: blur(30px) brightness(115%);
   width: 100%;
-  height: 10%;
+  height: 13%;
+
+  display: flex;
+  align-items: center;
+
+  color: white;
+  cursor: pointer;
+
+  padding-left: 1vw;
+}
+.game-link:hover {
+  color: #00556b;
+  background: rgba(162, 239, 255, 0.5);
+}
+
+.game-link span {
+  font-weight: bolder;
+  letter-spacing: 0.4vw;
+  font-size: 1.2vw;
+  margin-left: 1vw;
+}
+
+a {
+  text-decoration: none;
 }
 
 .all-games {
@@ -206,7 +268,7 @@ body {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ABOUT CAROUSEL-2 */
 
-hr {
+.about-hr {
   border-style: solid;
   margin: 1.25rem 1rem;
   width: 15%;

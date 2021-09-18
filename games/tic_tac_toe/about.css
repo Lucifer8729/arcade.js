@@ -1,0 +1,57 @@
+.container {
+  margin: 50px 275px 50px 275px;
+  height: 500px;
+  width: 800px;
+  opacity: 0.7;
+  background-color: black;
+  padding: 1% 1.5% 1% 1.5%;
+  border-radius: 10px;
+}
+.background-image {
+  height: 100%;
+  background-image: url("aboutbg.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-heading {
+  opacity: 1;
+  font-style: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black;
+  color: white;
+}
+.desc {
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 15px;
+  text-align: left;
+  width: 50%;
+  color: white;
+}
+.who-are-we {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  right: 35px;
+  width: 350px;
+}
+.how-are-we-diff {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: -115px;
+  left: 375px;
+  width: 360px;
+}
+.slogan {
+  width: 200%;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid black;
+  text-align: center;
+}

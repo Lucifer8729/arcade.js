@@ -79,6 +79,15 @@ const init = () => {
 const randomGameDiv1Image = document.querySelector(
   ".random-game-div1 .game-img"
 );
-// randomGameDiv1.style.backgroundImage = `url("assets/MWjbWaQ.png")`;
+const randomGameDiv2Image = document.querySelector(
+  ".random-game-div2 .game-img"
+);
+const randomGameDiv3Image = document.querySelector(
+  ".random-game-div3 .game-img"
+);
+
 randomGameDiv1Image.innerHTML = `<img src="assets/MWjbWaQ.png" alt="game" />`;
+randomGameDiv2Image.innerHTML = `<img src="assets/MWjbWaQ.png" alt="game" />`;
+randomGameDiv3Image.innerHTML = `<img src="assets/MWjbWaQ.png" alt="game" />`;
+
 // console.log(randomGameDiv1Image);

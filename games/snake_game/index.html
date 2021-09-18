@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div class="body">
+      <button
+        class="btn"
+        style="width: 6%; height: 5%; position: absolute; left: 2%; top: 3%"
+      >
+        <i class="fa fa-home"></i>
+      </button>
+      <div id="scoreBox">Score: 0</div>
+      <div id="hiscoreBox">High Score: 0</div>
+      <div id="board"></div>
+      <div id="intro">
+        <h3 style="color: red">Introduction:</h3>
+        <br />
+        <ol style="color: gold">
+          <li>Use the arrow keys to move the snake.</li>
+          <li>Grab the food to increase the score.</li>
+          <li>
+            The game ends when the snake<br />
+            with itself or the walls.
+          </li>
+        </ol>
+      </div>
+    </div>
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(4, 63, 97);
+        color: white;
+        text-align: center;
+        height: 40px;
+        align-items: center;
+      }
+    </style>
+
+    <div class="footer" style="align-content: center">
+      <p
+        style="
+          font-size: medium;
+          color: rgb(255, 253, 253);
+          font-size: 80%;
+          padding-top: 0.75%;
+        "
+      >
+        Designed and Developed by Rishy Parasar
+      </p>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

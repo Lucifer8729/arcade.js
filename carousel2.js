@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nost
                 </p>
-                <hr />
+                <hr class="about-hr" />
               </div>
               <div class="about-links-box">
                 <i class="fab fa-github-square fa-lg"></i>

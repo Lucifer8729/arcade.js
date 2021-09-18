@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: -webkit-linear-gradient(60deg, #0f5858, #56fafa);
+}
+#scoreBox {
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+
+#hiscoreBox {
+  position: absolute;
+  top: 59px;
+  right: 140px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+#board {
+  background-image: -webkit-linear-gradient(
+    60deg,
+    rgb(170, 236, 170),
+    rgb(236, 236, 167)
+  );
+  width: 80vmin;
+  height: 85vmin;
+  border-radius: 10px;
+
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+
+  position: absolute;
+  left: 31%;
+  top: 5%;
+}
+#intro {
+  text-align: left;
+  font-size: 150%;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+.head {
+  background-color: red;
+}
+.snake {
+  background-color: blue;
+}
+.food {
+  background-color: black;
+}
