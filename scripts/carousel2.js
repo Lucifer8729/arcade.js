@@ -3,25 +3,27 @@ import { GAME_DATA } from "./GAME_DATA.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const aboutSlider = document.querySelector(".about-slider");
-  GAME_DATA.map((item, i) => {
+  GAME_DATA.map((data) => {
     const html = `<div class="about-slide">
               <div class="about-img-box">
-                <img src="img/aniket.jpg" alt="image" class="about-img" />
+                <img src=${data.aboutPic} alt="image" class="about-img" />
               </div>
               <div class="about-box">
-                <h2 class="about-header">ABOUT${i}</h2>
+                <h2 class="about-header">ABOUT</h2>
               </div>
               <div class="about-txt-box">
                 <p class="about-txt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nost
+                  ${data.about}
                 </p>
                 <hr class="about-hr" />
               </div>
               <div class="about-links-box">
-                <i class="fab fa-github-square fa-lg"></i>
-                <i class="fas fa-link fa-lg"></i>
+                <a href=${data.gitLink} target="_blank">
+                  <i class="fab fa-github-square fa-lg"></i>
+                </a>
+                <a href=${data.linkedinLink} target="_blank">
+                  <i class="fas fa-link fa-lg"></i>
+                </a>
               </div>
             </div>`;
 

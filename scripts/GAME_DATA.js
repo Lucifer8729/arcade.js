@@ -80,13 +80,13 @@ export const GAME_DATA = [
     devName: "Bhavaneet Singh",
     games: [
       {
-        title: "PIG GAME",
+        title: "FALL GAME",
         shortDescription:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,`,
-        link: "#",
-        image: "#",
+        link: "games/fall_game/index.html",
+        image: "assets/gameImages/fall-game.png",
       },
     ],
     profilePic: "assets/devImages/profilePic.png",

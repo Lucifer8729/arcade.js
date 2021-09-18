@@ -80,11 +80,6 @@ const init = () => {
 const getRandomGames = () => {
   const randomGames = document.querySelector(".random-games");
 
-  // const num1 = Math.trunc(Math.random() * 2);
-  // const num2 = Math.trunc(Math.random() * 2 + 2);
-  // const num3 = Math.trunc(Math.random() * 3 + 4);
-  // const randomNums = [num1, num2, num3];
-
   const randomNums = [];
   while (randomNums.length < 3) {
     const r = Math.floor(Math.random() * 7);
