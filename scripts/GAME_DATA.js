@@ -124,7 +124,7 @@ export const GAME_DATA = [
     devName: "Ved Prakash Dubey",
     games: [
       {
-        title: "PIG GAME",
+        title: "ASTEROIDS",
         shortDescription:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
