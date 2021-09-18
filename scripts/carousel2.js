@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <i class="fab fa-github-square fa-lg"></i>
                 </a>
                 <a href=${data.linkedinLink} target="_blank">
-                  <i class="fas fa-link fa-lg"></i>
+                  <i class="fab fa-linkedin fa-lg"></i>
                 </a>
               </div>
             </div>`;

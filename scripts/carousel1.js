@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                       <div class="game-header">
                       <h2>${game.title}</h2>
                       </div>
+                      <hr />
                       <div class="game-text">
                       <p>${game.longDescription}</p>
                       </div>
