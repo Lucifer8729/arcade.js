@@ -192,6 +192,7 @@ body {
   margin: auto;
   width: 3.5vw;
   height: 3.5vw;
+  border-radius: 50px;
 }
 
 .game-des span {
@@ -327,7 +328,7 @@ a {
   margin-top: 3rem;
   padding: 0 4%;
   margin-bottom: 3rem;
-  max-height: 42vh;
+  height: 33vh;
 }
 
 .about-txt {
@@ -457,6 +458,7 @@ a {
   margin: auto;
   width: 3.5vw;
   height: 3.5vw;
+  border-radius: 50px;
 }
 
 .overlay-img {

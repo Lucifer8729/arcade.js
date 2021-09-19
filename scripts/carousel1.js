@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                       <p>${game.longDescription}</p>
                       </div>
                       <div class="creator-img-div">
-                      <img src=${game.profilePic} alt="creatorPic" />
+                      <img src=${data.profilePic} alt="creatorPic" />
                       </div>
                       </div>`;
 
