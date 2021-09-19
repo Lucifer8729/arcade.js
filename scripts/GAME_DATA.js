@@ -108,7 +108,7 @@ export const GAME_DATA = [
         longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s,`,
         link: "games/simon_game/index.html",
-        image: "#",
+        image: "assets/gameImages/simon_game.png",
       },
     ],
     profilePic: "assets/devImages/aniket.jpg",
