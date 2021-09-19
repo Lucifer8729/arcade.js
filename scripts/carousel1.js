@@ -10,13 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
     data.games.forEach((game) => {
       const textHTML = `<div class="game-description-box game-${i}">
                       <div class="game-header">
-                      <h2>${game.title}</h2>
-                      </div>
+                      <h3>${game.title}</h3>
                       <hr />
+                      </div>
                       <div class="game-text">
                       <p>${game.longDescription}</p>
                       </div>
-                        <img src=${game.link} class="creator-img">
+                      <div class="creator-img-div">
+                      <img src=${game.profilePic} alt="creatorPic" />
+                      </div>
                       </div>`;
 
       const picHTML = `<div class="slide">
