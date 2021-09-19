@@ -104,9 +104,8 @@ export const GAME_DATA = [
       {
         title: "SIMON GAME",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "Simon game is a game of memory skill which creates a series of tones and requires a user to repeat it.",
+        longDescription: `Simon game tests the memory skill of a user. The game starts by displaying a sequence of button clicks and requires a user to repeat the exact sequence by pressing the buttons. With each level sequence gets bigger and the game gets over when user fails to repeat the whole sequence correctly.`,
         link: "games/simon_game/index.html",
         image: "assets/gameImages/simon_game.png",
       },
