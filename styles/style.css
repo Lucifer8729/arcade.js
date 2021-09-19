@@ -135,8 +135,14 @@ body {
 .random-game {
   width: 30%;
   height: 57vh;
+  transition: width 0.2s;
+  transition-timing-function: ease;
 
   background-color: transparent;
+}
+
+.random-game:hover {
+  width: 33%;
 }
 .random-game-div2 {
   margin-left: 5%;
@@ -180,7 +186,7 @@ body {
   box-shadow: 0 1px 10px 1px rgb(116, 116, 116);
 
   margin-top: -4vw;
-  margin-left: 11vw;
+  margin-left: 13%;
 }
 .game-des .img-div img {
   margin: auto;
