@@ -1,0 +1,86 @@
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border-color: white;
+    background-image: url("images/tree.png");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+}
+
+.grid div {
+    height: 55px;
+    width: 55px;
+}
+
+.ending-block {
+    background-image: url("images/well.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starting-block {
+    background-image: url("images/finish.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c1 {
+    background-image: url("images/car.png");
+    background-size: 55px 55px;
+    background-repeat: no-repeat;
+}
+
+.l1,
+.l2,
+.l3 {
+    background-image: url("images/log.png");
+    background-size: 55px 55px;
+    background-repeat: no-repeat;
+}
+
+.l4,
+.l5,
+.lf2,
+.lf3 {
+    background-image: url("images/water.png");
+    background-size: 55px 55px;
+    background-repeat: no-repeat;
+}
+
+.c2,
+.c3 {
+    background-image: url("images/road.png");
+    background-size: 55px 55px;
+    background-repeat: no-repeat;
+}
+
+.frog {
+    /* background-color: darkgreen; */
+    background-image: url("images/frog.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+#time-left {
+    color: white;
+}
+
+#result {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
