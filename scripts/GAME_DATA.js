@@ -47,12 +47,11 @@ export const GAME_DATA = [
     ],
     profilePic: "assets/devImages/profilePic.png",
     aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    gitLink: "#",
-    linkedinLink: "#",
+    about: `CSE undergrad student with interests in Machine learning,Deep Learning, Data Analysis, Cloud Storage and service based software development.
+    My objectives are to learn,build tools and to develop and adapt technologies that compliments and supports society at large.
+    I like to  do competitive code and problem solving in between projects and learn about upcoming tools and technology.`,
+    gitLink: "https://github.com/rishysp",
+    linkedinLink: "https://www.linkedin.com/in/rishy-parasar-782601197/",
   },
   {
     devName: "Anurag Nayak",
@@ -135,8 +134,8 @@ export const GAME_DATA = [
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    gitLink: "#",
-    linkedinLink: "#",
+    gitLink: "https://github.com/VedPDubey",
+    linkedinLink: "https://www.linkedin.com/in/ved-prakash-dubey-swash/",
   },
   {
     devName: "Aakash Gupta",
@@ -144,20 +143,21 @@ export const GAME_DATA = [
       {
         title: "FROGGER",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "The player uses Arrow keys to guide a frog its home well at the top of the screen.",
+        longDescription: `The frog starts at the bottom of the screen going upward, to cross a horizontal road with speeding car.
+         The player must guide the frog between opposing lanes of traffic to avoid becoming roadkill,
+          which would result in game over. A median strip separates the road and the deadly river with logs moving horizontally.
+           The player must also guide the frog across the river  avoiding drowning.`,
         link: "games/Frogger/index.html",
         image: "#",
       },
     ],
     profilePic: "assets/devImages/profilePic.png",
     aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    gitLink: "#",
-    linkedinLink: "#",
+    about: `CSE undergrad student with interests in Machine learning,Deep Learning, Data Analysis, Cloud Storage and service based software development.
+    My objectives are to learn,build tools and to develop and adapt technologies that compliments and supports society at large.
+    I like to  do competitive code and problem solving in between projects and learn about upcoming tools and technology.`,
+    gitLink: "https://github.com/Ablaze3883",
+    linkedinLink: "https://www.linkedin.com/in/aakash-gupta-849ab120a/",
   },
 ];
