@@ -100,6 +100,14 @@ export const GAME_DATA = [
         link: "games/simon_game/index.html",
         image: "assets/gameImages/simon_game.png",
       },
+      {
+        title: "TRIVIA GAME",
+        shortDescription:
+          "A form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects.",
+        longDescription: `A form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects. Each question will have only one correct answer.`,
+        link: "games/trivia_game/index.html",
+        image: "assets/gameImages/trivia-game.png",
+      },
     ],
     profilePic: "assets/devImages/aniket.jpg",
     aboutPic: "assets/devImages/aniket_aboutPic.png",

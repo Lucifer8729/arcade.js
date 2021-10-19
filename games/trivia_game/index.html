@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Welcome to the Trivia Game!</h1>
+    <div class="container" id="display">
+      <h1 id="question"></h1>
+      <div class="info">
+        <h4>Category: <span id="category"></span></h4>
+        <h4>Difficulty: <span id="difficulty"></span></h4>
+      </div>
+      <div class="form">
+        <div class="choices">
+          <div>
+            <input type="radio" name="choice" id="choice1" value="" />
+            <label for="choice1" id="choice1label"></label>
+          </div>
+          <div>
+            <input type="radio" name="choice" id="choice2" value="" />
+            <label for="choice2" id="choice2label"></label>
+          </div>
+          <div>
+            <input type="radio" name="choice" id="choice3" value="" />
+            <label for="choice3" id="choice3label"></label>
+          </div>
+          <div>
+            <input type="radio" name="choice" id="choice4" value="" />
+            <label for="choice4" id="choice4label"></label>
+          </div>
+        </div>
+        <div class="btn-cont">
+          <button class="btn guess" id="guess">Guess!</button>
+          <button class="btn new" id="new">Next Question!</button>
+        </div>
+      </div>
+      <h2 id="result"></h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
