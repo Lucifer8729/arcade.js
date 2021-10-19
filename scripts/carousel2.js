@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const slider2 = function () {
   const aboutSlides = document.querySelectorAll(".about-slide");
 
-  let curAboutSlide = 0;
+  let curAboutSlide = -1;
   const maxAboutSlide = aboutSlides.length;
 
   // Functions
@@ -53,7 +53,7 @@ const slider2 = function () {
     }
 
     goToAboutSlide(curAboutSlide);
-    setTimeout(nextAboutSlide, 3000);
+    setTimeout(nextAboutSlide, 5000);
   };
 
   const init = function () {

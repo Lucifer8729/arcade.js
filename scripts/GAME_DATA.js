@@ -23,14 +23,11 @@ export const GAME_DATA = [
         image: "assets/gameImages/guess-my-number.png",
       },
     ],
-    profilePic: "assets/devImages/profilePic.png",
-    aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    gitLink: "#",
-    linkedinLink: "#",
+    profilePic: "assets/devImages/saurav.jpeg",
+    aboutPic: "assets/devImages/saurav_aboutPic.png",
+    about: `A creative thinker, adept in software development and working with various web technologies. Hardworking College student bringing forth a motivated and a variety of powerful skills.`,
+    gitLink: "https://github.com/Lucifer8729",
+    linkedinLink: "https://www.linkedin.com/in/saurav-kumar-70362a20a/",
   },
   {
     devName: "Rishy Prashar",
@@ -38,15 +35,14 @@ export const GAME_DATA = [
       {
         title: "SNAKE GAME",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "The player controls a snake, which roams around, picking up food trying to avoid hitting its own tail or the edges",
+        longDescription: `Snake is a video game that originated during the late 1970s in arcades becoming something of a classic. The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail or the edges of the playing area.`,
         link: "games/snake_game/index.html",
         image: "assets/gameImages/snake-game.png",
       },
     ],
-    profilePic: "assets/devImages/profilePic.png",
-    aboutPic: "assets/devImages/aboutPic.png",
+    profilePic: "assets/devImages/rishy.png",
+    aboutPic: "assets/devImages/rishy_aboutPic.png",
     about: `CSE undergrad student with interests in Machine learning,Deep Learning, Data Analysis, Cloud Storage and service based software development.
     My objectives are to learn,build tools and to develop and adapt technologies that compliments and supports society at large.
     I like to  do competitive code and problem solving in between projects and learn about upcoming tools and technology.`,
@@ -59,43 +55,39 @@ export const GAME_DATA = [
       {
         title: "TIC TAC TOE",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "A game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's.",
+        longDescription: `A game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares; noughts and crosses.`,
         link: "games/tic_tac_toe/game.html",
         image: "assets/gameImages/tic-tac-toe.png",
       },
     ],
     profilePic: "assets/devImages/anurag.jpg",
-    aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+    aboutPic: "assets/devImages/anurag_aboutPic.png",
+    about: `Passionate about learning web development and other technologies to be industry-oriented. Avid learner of new technologies, 
+    and interested in implementing them for betterment of society.Loves games,food,travel, in that order!`,
     gitLink: "#",
     linkedinLink: "#",
   },
   {
-    devName: "Bhavaneet Singh",
+    devName: "Bhavneet Singh",
     games: [
       {
         title: "FALL GAME",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "Fall game is a game in which you make a ball fall down through a series of holes.",
+        longDescription: `Fall game is a game in which you make a ball fall down through a series of holes.
+        As time goes by, the game will speed up making it more difficult to drop the ball through the holes. Also the moving platforms will make it harder to fall down.
+        Drop the ball as far as you can and get the highest online score!`,
         link: "games/fall_game/index.html",
         image: "assets/gameImages/fall-game.png",
       },
     ],
-    profilePic: "assets/devImages/profilePic.png",
-    aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    gitLink: "#",
-    linkedinLink: "#",
+    profilePic: "assets/devImages/bhavneet.jpeg",
+    aboutPic: "assets/devImages/bhavneet_aboutPic.png",
+    about: `CSE undergrad student with interest in ui ux and software development . I am good in team work and learn new skills to upgrade my knowledge.
+    My objective is to secure a responsible career opportunity to fully utilize my training and skills to build projects .`,
+    gitLink: "https://github.com/Bhavneet04",
+    linkedinLink: "https://www.linkedin.com/mwlite/in/bhavneet-singh-94200b223",
   },
   {
     devName: "Aniket Agarwal",
@@ -110,7 +102,7 @@ export const GAME_DATA = [
       },
     ],
     profilePic: "assets/devImages/aniket.jpg",
-    aboutPic: "assets/devImages/aboutPic.png",
+    aboutPic: "assets/devImages/aniket_aboutPic.png",
     about: `Enthusiastic and Hardworking student currently pursuing B. Tech in Software Engineering. I am highly passionate about learning new technologies related to full stack development. My biggest strengths are time management and ability to work in a team.`,
     gitLink: "https://www.github.com/Aniket0920",
     linkedinLink: "https://www.linkedin.com/in/aniket-agarwal-0920",
@@ -121,19 +113,15 @@ export const GAME_DATA = [
       {
         title: "ASTEROIDS",
         shortDescription:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,`,
+          "Asteroids is a game in which the player controls a single spaceship in an asteroid field and aims to keep the spaceship intact.",
+        longDescription: `Asteroids is a game in which the player controls a single spaceship in an asteroid field and aims to keep the spaceship intact. Originally made for the Atari 2600 in 1979 - the Javascript implementation aims to revive this classic and make it accessible to everyone through the internet.  `,
         link: "games/asteroids/asteroids.html",
         image: "assets/gameImages/asteroids.png",
       },
     ],
-    profilePic: "assets/devImages/profilePic.png",
-    aboutPic: "assets/devImages/aboutPic.png",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+    profilePic: "assets/devImages/ved.jpeg",
+    aboutPic: "assets/devImages/ved_aboutPic.png",
+    about: `A junior year technology enthusiast who does python, machine learning, and web development. Interested in applied research in the fields of Computer Vision and Deep Learning. Novice web developer.  I love building impactful projects and exploring insightful new things.`,
     gitLink: "https://github.com/VedPDubey",
     linkedinLink: "https://www.linkedin.com/in/ved-prakash-dubey-swash/",
   },
@@ -149,11 +137,11 @@ export const GAME_DATA = [
           which would result in game over. A median strip separates the road and the deadly river with logs moving horizontally.
            The player must also guide the frog across the river  avoiding drowning.`,
         link: "games/Frogger/index.html",
-        image: "#",
+        image: "assets/gameImages/frogger.png",
       },
     ],
-    profilePic: "assets/devImages/profilePic.png",
-    aboutPic: "assets/devImages/aboutPic.png",
+    profilePic: "assets/devImages/aakash.jpeg",
+    aboutPic: "assets/devImages/aakash_aboutPic.png",
     about: `CSE undergrad student with interests in Machine learning,Deep Learning, Data Analysis, Cloud Storage and service based software development.
     My objectives are to learn,build tools and to develop and adapt technologies that compliments and supports society at large.
     I like to  do competitive code and problem solving in between projects and learn about upcoming tools and technology.`,
