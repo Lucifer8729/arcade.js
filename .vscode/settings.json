@@ -1,6 +1,7 @@
 {
   "liveServer.settings.port": 5501,
   "new": "test",
-  "branch": "2",
+  "branch": "new-test",
+  "branch2": "2",
   "new": "changes",
 }
